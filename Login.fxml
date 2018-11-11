@@ -11,7 +11,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane prefHeight="600.0" prefWidth="900.0">
@@ -21,18 +20,18 @@
                   <Image url="@logo.png" />
                </image>
             </ImageView>
-            <TextField layoutX="288.0" layoutY="268.0" prefHeight="58.0" prefWidth="337.0" />
-            <PasswordField layoutX="288.0" layoutY="368.0" prefHeight="58.0" prefWidth="337.0" />
             <Label layoutX="288.0" layoutY="243.0" text="E-mail">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
+            <TextField fx:id="email" layoutX="288.0" layoutY="268.0" prefHeight="58.0" prefWidth="337.0" promptText="example@adiv.com" />
             <Label layoutX="288.0" layoutY="343.0" text="Password">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
+            <PasswordField fx:id="password" layoutX="288.0" layoutY="368.0" prefHeight="58.0" prefWidth="337.0" promptText="●●●●●●●●" />
             <Button fx:id="loginButton" layoutX="548.0" layoutY="438.0" mnemonicParsing="false" text="Login">
                <font>
                   <Font size="20.0" />
