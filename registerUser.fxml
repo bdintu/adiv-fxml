@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
@@ -16,54 +17,71 @@
          <children>
             <Pane prefHeight="603.0" prefWidth="898.0">
                <children>
-                  <ImageView fitHeight="191.0" fitWidth="367.0" layoutX="272.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="152.0" fitWidth="292.0" layoutX="311.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@logo.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="288.0" layoutY="229.0" text="E-mail">
+                  <Label layoutX="288.0" layoutY="158.0" text="E-mail">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="email" layoutX="288.0" layoutY="253.0" prefHeight="58.0" prefWidth="337.0" promptText="example@adiv.com" />
-                  <Label layoutX="288.0" layoutY="329.0" text="Password">
+                  <TextField fx:id="email" layoutX="288.0" layoutY="182.0" prefHeight="58.0" prefWidth="337.0" promptText="example@adiv.com" />
+                  <Label layoutX="288.0" layoutY="258.0" text="Password">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <PasswordField fx:id="password" layoutX="288.0" layoutY="353.0" prefHeight="58.0" prefWidth="337.0" promptText="●●●●●●●●" />
-                  <Label layoutX="288.0" layoutY="429.0" text="Confirm Password">
+                  <PasswordField fx:id="password" layoutX="288.0" layoutY="282.0" prefHeight="58.0" prefWidth="337.0" promptText="●●●●●●●●" />
+                  <Label layoutX="288.0" layoutY="358.0" text="Confirm Password">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <PasswordField fx:id="confirmPassword" layoutX="288.0" layoutY="453.0" prefHeight="58.0" prefWidth="337.0" promptText="●●●●●●●●" />
+                  <PasswordField fx:id="confirmPassword" layoutX="288.0" layoutY="382.0" prefHeight="58.0" prefWidth="337.0" promptText="●●●●●●●●" />
                   <ImageView fx:id="nextButton" fitHeight="50.0" fitWidth="50.0" layoutX="834.0" layoutY="539.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-forward-button-filled-50.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="222.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="222.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-name-filled-50.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="222.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="222.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-password-filled-50.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="backButton" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="backButton" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="539.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-go-back-filled-50.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="222.0" layoutY="457.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="222.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-password-filled-50.png" />
                      </image>
                   </ImageView>
+                  <ImageView fx:id="seekerButton" fitHeight="50.0" fitWidth="50.0" layoutX="351.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-account-filled-50.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="companyButton" fitHeight="50.0" fitWidth="50.0" layoutX="498.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-user-groups-filled-50.png" />
+                     </image>
+                  </ImageView>
+                  <CheckBox fx:id="seeker" layoutX="340.0" layoutY="531.0" mnemonicParsing="false" text="For Seeker" />
+                  <CheckBox fx:id="company" layoutX="477.0" layoutY="531.0" mnemonicParsing="false" text="For Company" />
+                  <Label layoutX="404.0" layoutY="564.0" text="Please choose only one.">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
                </children>
             </Pane>
          </children>

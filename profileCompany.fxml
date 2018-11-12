@@ -49,7 +49,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="biography" alignment="TOP_LEFT" layoutX="78.0" layoutY="471.0" prefHeight="116.0" prefWidth="604.0" />
+                  <TextField fx:id="biography" alignment="TOP_LEFT" layoutX="78.0" layoutY="471.0" prefHeight="99.0" prefWidth="604.0" />
                   <ImageView fx:id="editButton" fitHeight="50.0" fitWidth="50.0" layoutX="827.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-edit-file-filled-50.png" />
