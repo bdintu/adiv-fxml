@@ -20,37 +20,37 @@
                         <Image url="@logo.png" />
                      </image>
                   </ImageView>
-                  <Label fx:id="telephone" layoutX="78.0" layoutY="243.0" text="Telephone Number">
+                  <Label layoutX="78.0" layoutY="243.0" text="Telephone Number">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
                   <TextField fx:id="phone" layoutX="78.0" layoutY="271.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label fx:id="firstName" layoutX="78.0" layoutY="148.0" text="First Name">
+                  <Label layoutX="78.0" layoutY="148.0" text="First Name">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="firstname" layoutX="78.0" layoutY="176.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label fx:id="lastName" layoutX="488.0" layoutY="148.0" text="Last Name">
+                  <TextField fx:id="firstName" layoutX="78.0" layoutY="176.0" prefHeight="58.0" prefWidth="337.0" />
+                  <Label layoutX="488.0" layoutY="148.0" text="Last Name">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="lastname" layoutX="488.0" layoutY="176.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label fx:id="Address" layoutX="488.0" layoutY="248.0" text="Address">
+                  <TextField fx:id="lastName" layoutX="488.0" layoutY="176.0" prefHeight="58.0" prefWidth="337.0" />
+                  <Label layoutX="488.0" layoutY="248.0" text="Address">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
                   <TextField fx:id="address" alignment="TOP_LEFT" layoutX="488.0" layoutY="276.0" prefHeight="155.0" prefWidth="337.0" />
-                  <Label fx:id="educationLevel" layoutX="78.0" layoutY="343.0" text="Education Level">
+                  <Label layoutX="78.0" layoutY="343.0" text="Education Level">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
                   <TextField fx:id="educationLevel" layoutX="78.0" layoutY="371.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label fx:id="biography" layoutX="78.0" layoutY="443.0" text="Biography">
+                  <Label layoutX="78.0" layoutY="443.0" text="Biography">
                      <font>
                         <Font size="18.0" />
                      </font>

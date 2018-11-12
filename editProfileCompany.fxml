@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
-  <children>
+   <children>
       <AnchorPane prefHeight="609.0" prefWidth="900.0">
          <children>
             <Pane prefHeight="200.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -31,14 +31,8 @@
                         <Image url="@icons8-save-filled-50.png" />
                      </image>
                   </ImageView>
-                  <TextField fx:id="firstName" layoutX="115.0" layoutY="125.0" prefHeight="58.0" prefWidth="337.0" />
-                  <TextField fx:id="lastName" layoutX="495.0" layoutY="125.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="115.0" layoutY="103.0" text="Name">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="502.0" layoutY="103.0" text="Surname">
+                  <TextField fx:id="name" layoutX="115.0" layoutY="125.0" prefHeight="58.0" prefWidth="728.0" />
+                  <Label layoutX="115.0" layoutY="103.0" text="Company Name">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -49,8 +43,8 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="educationLevel" layoutX="115.0" layoutY="465.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="115.0" layoutY="443.0" text="Education Level">
+                  <TextField fx:id="website" layoutX="115.0" layoutY="465.0" prefHeight="58.0" prefWidth="337.0" />
+                  <Label layoutX="115.0" layoutY="443.0" text="Website">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -89,5 +83,5 @@
             </Pane>
          </children>
       </AnchorPane>
-  </children>
+   </children>
 </VBox>
