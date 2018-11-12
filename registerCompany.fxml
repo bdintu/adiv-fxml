@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
@@ -21,41 +20,46 @@
                         <Image url="@logo.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="60.0" layoutY="120.0" text="Company Name">
+                  <ImageView fx:id="okButton" fitHeight="50.0" fitWidth="50.0" layoutX="834.0" layoutY="533.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-checked-filled-50.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="backButton" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-go-back-filled-50.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="telephone" layoutX="60.0" layoutY="239.0" text="Telephone Number">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="name" layoutX="60.0" layoutY="148.0" prefHeight="58.0" prefWidth="745.0" />
-                  <Label layoutX="60.0" layoutY="215.0" text="Telephone Number">
+                  <TextField fx:id="phone" layoutX="60.0" layoutY="267.0" prefHeight="58.0" prefWidth="337.0" />
+                  <Label fx:id="name" layoutX="60.0" layoutY="144.0" text="Company Name">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="phone" layoutX="60.0" layoutY="243.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="470.0" layoutY="220.0" text="Address">
+                  <TextField fx:id="name" layoutX="60.0" layoutY="172.0" prefHeight="58.0" prefWidth="745.0" />
+                  <Label fx:id="Address" layoutX="470.0" layoutY="244.0" text="Address">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="address" alignment="TOP_LEFT" layoutX="470.0" layoutY="248.0" prefHeight="155.0" prefWidth="337.0" />
-                  <Label layoutX="60.0" layoutY="415.0" text="Biography">
+                  <TextField fx:id="address" alignment="TOP_LEFT" layoutX="470.0" layoutY="272.0" prefHeight="155.0" prefWidth="337.0" />
+                  <Label fx:id="biography" layoutX="60.0" layoutY="439.0" text="Biography">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="biography" layoutX="60.0" layoutY="443.0" prefHeight="127.0" prefWidth="604.0" />
-                  <Label layoutX="60.0" layoutY="315.0" text="Website">
+                  <TextField fx:id="biography" alignment="TOP_LEFT" layoutX="60.0" layoutY="467.0" prefHeight="101.0" prefWidth="604.0" />
+                  <Label fx:id="website" layoutX="60.0" layoutY="339.0" text="Website">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="website" layoutX="60.0" layoutY="343.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Button layoutX="728.0" layoutY="545.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="149.0" text="Register">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                  </Button>
+                  <TextField fx:id="website" layoutX="60.0" layoutY="367.0" prefHeight="58.0" prefWidth="337.0" />
                </children>
             </Pane>
          </children>
