@@ -79,7 +79,7 @@
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
-                  <Label layoutX="132.0" layoutY="144.0" text="Job">
+                  <Label layoutX="132.0" layoutY="144.0" text="Job function">
                      <font>
                         <Font size="18.0" />
                      </font></Label>

@@ -21,7 +21,11 @@
                      </image>
                   </ImageView>
                   <ListView fx:id="listView" layoutX="184.0" layoutY="115.0" prefHeight="395.0" prefWidth="658.0" />
+<<<<<<< HEAD
                   <MenuButton fx:id="jobType" layoutX="23.0" layoutY="115.0" mnemonicParsing="false" text="Employment type">
+=======
+                  <MenuButton fx:id="jobType" layoutX="23.0" layoutY="180.0" mnemonicParsing="false" text="Employment type">
+>>>>>>> parent of 2c70909... โอเคซึ้ง
                      <items>
                         <MenuItem mnemonicParsing="false" text="Full time" />
                         <MenuItem mnemonicParsing="false" text="Part time" />
@@ -30,7 +34,11 @@
                         <MenuItem mnemonicParsing="false" text="Freelance" />
                      </items>
                   </MenuButton>
+<<<<<<< HEAD
                   <MenuButton fx:id="educationLevel" layoutX="23.0" layoutY="185.0" mnemonicParsing="false" text="Education level">
+=======
+                  <MenuButton fx:id="educationLevel" layoutX="23.0" layoutY="245.0" mnemonicParsing="false" text="Education level">
+>>>>>>> parent of 2c70909... โอเคซึ้ง
                      <items>
                         <MenuItem mnemonicParsing="false" text="High School" />
                         <MenuItem mnemonicParsing="false" text="Vocational" />
@@ -40,7 +48,11 @@
                         <MenuItem mnemonicParsing="false" text="Doctor Degrees" />
                      </items>
                   </MenuButton>
+<<<<<<< HEAD
                   <MenuButton fx:id="location" layoutX="23.0" layoutY="255.0" mnemonicParsing="false" text="Location">
+=======
+                  <MenuButton fx:id="location" layoutX="23.0" layoutY="310.0" mnemonicParsing="false" text="Location">
+>>>>>>> parent of 2c70909... โอเคซึ้ง
                      <items>
                         <MenuItem mnemonicParsing="false" text="Phra Nakhon" />
                         <MenuItem mnemonicParsing="false" text="Bang Bon" />
@@ -94,14 +106,22 @@
                         <MenuItem mnemonicParsing="false" text="Yan Nawa" />
                      </items>
                   </MenuButton>
+<<<<<<< HEAD
                   <MenuButton fx:id="jobLevel" layoutX="23.0" layoutY="325.0" mnemonicParsing="false" text="Career level">
+=======
+                  <MenuButton fx:id="jobLevel" layoutX="23.0" layoutY="375.0" mnemonicParsing="false" text="Career level">
+>>>>>>> parent of 2c70909... โอเคซึ้ง
                      <items>
                         <MenuItem mnemonicParsing="false" text="Entry" />
                         <MenuItem mnemonicParsing="false" text="Middle" />
                         <MenuItem mnemonicParsing="false" text="Senior" />
                      </items>
                   </MenuButton>
+<<<<<<< HEAD
                   <MenuButton fx:id="salary" layoutX="23.0" layoutY="395.0" mnemonicParsing="false" text="Salary">
+=======
+                  <MenuButton fx:id="salary" layoutX="23.0" layoutY="440.0" mnemonicParsing="false" text="Salary">
+>>>>>>> parent of 2c70909... โอเคซึ้ง
                      <items>
                         <MenuItem mnemonicParsing="false" text="Under 20000 THB" />
                         <MenuItem mnemonicParsing="false" text="20001-30000 THB" />
@@ -110,7 +130,11 @@
                         <MenuItem mnemonicParsing="false" text="Upper 50000 THB" />
                      </items>
                   </MenuButton>
+<<<<<<< HEAD
                   <MenuButton fx:id="skill" layoutX="23.0" layoutY="465.0" mnemonicParsing="false" text="Skill">
+=======
+                  <MenuButton fx:id="skill" layoutX="23.0" layoutY="505.0" mnemonicParsing="false" text="Skill">
+>>>>>>> parent of 2c70909... โอเคซึ้ง
                      <items>
                         <MenuItem mnemonicParsing="false" text="Java/JavaScript" />
                         <MenuItem mnemonicParsing="false" text="Python" />
@@ -125,7 +149,11 @@
                         <MenuItem mnemonicParsing="false" text="Others" />
                      </items>
                   </MenuButton>
+<<<<<<< HEAD
                   <MenuButton fx:id="jobFunction" layoutX="23.0" layoutY="535.0" mnemonicParsing="false" text="Job function">
+=======
+                  <MenuButton fx:id="jobFunction" layoutX="23.0" layoutY="115.0" mnemonicParsing="false" text="Job function">
+>>>>>>> parent of 2c70909... โอเคซึ้ง
                      <items>
                         <MenuItem mnemonicParsing="false" text="Business Development" />
                         <MenuItem mnemonicParsing="false" text="Content Creator" />

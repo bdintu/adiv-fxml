@@ -59,8 +59,12 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
+<<<<<<< HEAD
                   <TextField fx:id="biography" layoutX="94.0" layoutY="448.0" prefHeight="58.0" prefWidth="337.0" />
                   <Label layoutX="94.0" layoutY="505.0" text="Employment type">
+=======
+                  <Label layoutX="501.0" layoutY="88.0" text="Job Function">
+>>>>>>> parent of 2c70909... โอเคซึ้ง
                      <font>
                         <Font size="18.0" />
                      </font>

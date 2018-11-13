@@ -148,7 +148,11 @@
                         <MenuItem mnemonicParsing="false" text="Others" />
                      </items>
                   </MenuButton>
+<<<<<<< HEAD
                   <MenuButton fx:id="jobFunction" layoutX="475.0" layoutY="375.0" mnemonicParsing="false" text="Job function">
+=======
+                  <MenuButton fx:id="jobFunction" layoutX="184.0" layoutY="170.0" mnemonicParsing="false" text="Job function">
+>>>>>>> parent of 2c70909... โอเคซึ้ง
                      <items>
                         <MenuItem mnemonicParsing="false" text="Business Development" />
                         <MenuItem mnemonicParsing="false" text="Content Creator" />
