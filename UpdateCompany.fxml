@@ -10,8 +10,8 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
-  <children>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="company.FXMLUpdateCompany">
+   <children>
       <AnchorPane prefHeight="609.0" prefWidth="900.0">
          <children>
             <Pane prefHeight="200.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -31,30 +31,18 @@
                         <Image url="@icons8-save-filled-50.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="115.0" layoutY="103.0" text="Name">
+                  <Label layoutX="115.0" layoutY="103.0" text="Company Name">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="firstName" layoutX="115.0" layoutY="125.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="502.0" layoutY="103.0" text="Surname">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <TextField fx:id="lastName" layoutX="495.0" layoutY="125.0" prefHeight="58.0" prefWidth="337.0" />
+                  <TextField fx:id="name" layoutX="115.0" layoutY="125.0" prefHeight="58.0" prefWidth="728.0" />
                   <Label layoutX="115.0" layoutY="187.0" text="E-mail">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
                   <TextField fx:id="email" layoutX="115.0" layoutY="210.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="502.0" layoutY="187.0" text="Telephone Number">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <TextField fx:id="phone" layoutX="502.0" layoutY="210.0" prefHeight="58.0" prefWidth="337.0" />
                   <Label layoutX="115.0" layoutY="271.0" text="Password">
                      <font>
                         <Font size="18.0" />
@@ -67,18 +55,24 @@
                      </font>
                   </Label>
                   <PasswordField fx:id="confirmPassword" layoutX="115.0" layoutY="380.0" prefHeight="58.0" prefWidth="337.0" />
+                  <Label layoutX="502.0" layoutY="187.0" text="Telephone Number">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="phone" layoutX="502.0" layoutY="210.0" prefHeight="58.0" prefWidth="337.0" />
+                  <Label layoutX="115.0" layoutY="443.0" text="Website">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="website" layoutX="115.0" layoutY="465.0" prefHeight="58.0" prefWidth="337.0" />
                   <Label layoutX="503.0" layoutY="271.0" text="Address">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
                   <TextField fx:id="address" layoutX="502.0" layoutY="295.0" prefHeight="94.0" prefWidth="337.0" />
-                  <Label layoutX="115.0" layoutY="443.0" text="Education Level">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <TextField fx:id="educationLevel" layoutX="115.0" layoutY="465.0" prefHeight="58.0" prefWidth="337.0" />
                   <Label layoutX="503.0" layoutY="392.0" text="Biography">
                      <font>
                         <Font size="18.0" />
@@ -89,5 +83,5 @@
             </Pane>
          </children>
       </AnchorPane>
-  </children>
+   </children>
 </VBox>
