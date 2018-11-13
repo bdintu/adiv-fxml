@@ -159,7 +159,7 @@
                         <Font size="16.0" />
                      </font>
                   </MenuButton>
-                  <MenuButton fx:id="jobFunction" layoutX="184.0" layoutY="170.0" mnemonicParsing="false" text="Job function">
+                  <MenuButton fx:id="jobFunction" layoutX="184.0" layoutY="170.0" mnemonicParsing="false" text="Job">
                      <items>
                         <MenuItem mnemonicParsing="false" text="Business Development" />
                         <MenuItem mnemonicParsing="false" text="Content Creator" />

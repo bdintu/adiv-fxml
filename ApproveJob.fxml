@@ -72,7 +72,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label layoutX="501.0" layoutY="88.0" text="Job Function">
+                  <Label layoutX="501.0" layoutY="88.0" text="Job">
                      <font>
                         <Font size="18.0" />
                      </font>
