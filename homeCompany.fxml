@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="company.FXMLHomeCompany">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="company.FXMLHomeCompany">
   <children>
       <AnchorPane prefHeight="200.0" prefWidth="200.0">
          <children>
@@ -18,7 +18,7 @@
                         <Image url="@logo.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="postJobButton" accessibleRole="BUTTON" fitHeight="300.0" fitWidth="300.0" layoutX="102.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="postJpbButton" accessibleRole="BUTTON" fitHeight="300.0" fitWidth="300.0" layoutX="102.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@postjob.png" />
                      </image>
@@ -31,7 +31,7 @@
                         <Image url="@approve.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="logoutButton" fitHeight="64.0" fitWidth="64.0" layoutX="14.0" layoutY="522.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="logoutButton" fitHeight="64.0" fitWidth="64.0" layoutX="10.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-shutdown-64.png" />
                      </image>
