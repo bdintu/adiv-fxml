@@ -20,7 +20,7 @@
                   </ImageView>
                   <ImageView fx:id="postJpbButton" accessibleRole="BUTTON" fitHeight="300.0" fitWidth="300.0" layoutX="102.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@post%20job.png" />
+                        <Image url="@postjob.png" />
                      </image>
                      <cursor>
                         <Cursor fx:constant="DEFAULT" />
@@ -31,7 +31,7 @@
                         <Image url="@approve.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="logoutButton" fitHeight="64.0" fitWidth="64.0" layoutX="14.0" layoutY="522.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="logoutButton" fitHeight="64.0" fitWidth="64.0" layoutX="10.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-shutdown-64.png" />
                      </image>

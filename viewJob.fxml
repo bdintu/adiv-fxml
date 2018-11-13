@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -15,66 +16,86 @@
          <children>
             <Pane prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <ImageView fitHeight="180.0" fitWidth="180.0" layoutX="8.0" layoutY="-24.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@apply.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fx:id="okButton" fitHeight="50.0" fitWidth="50.0" layoutX="836.0" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="okButton" fitHeight="50.0" fitWidth="50.0" layoutX="840.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-submit-resume-filled-50.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="backButton" fitHeight="50.0" fitWidth="50.0" layoutX="18.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="backButton" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-go-back-filled-50.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="130.0" layoutY="120.0" text="Position title">
+                  <Label layoutX="132.0" layoutY="231.0" text="Employment type">
                      <font>
                         <Font size="18.0" />
                      </font></Label>
-                  <TextField fx:id="name" layoutX="130.0" layoutY="148.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="132.0" layoutY="207.0" text="Employment type">
+                  <TextField fx:id="jobType" layoutX="132.0" layoutY="256.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <Label layoutX="132.0" layoutY="316.0" text="Education level">
                      <font>
                         <Font size="18.0" />
                      </font></Label>
-                  <TextField fx:id="jobType" layoutX="132.0" layoutY="232.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="132.0" layoutY="292.0" text="Education level">
+                  <TextField fx:id="educationLevel" layoutX="132.0" layoutY="341.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <Label layoutX="132.0" layoutY="398.0" text="Location">
                      <font>
                         <Font size="18.0" />
                      </font></Label>
-                  <TextField fx:id="educationLevel" layoutX="132.0" layoutY="317.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="132.0" layoutY="374.0" text="Location">
+                  <TextField fx:id="location" layoutX="132.0" layoutY="422.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <Label layoutX="131.0" layoutY="480.0" text="Career level">
                      <font>
                         <Font size="18.0" />
                      </font></Label>
-                  <TextField fx:id="location" layoutX="132.0" layoutY="398.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="131.0" layoutY="456.0" text="Career level">
+                  <TextField fx:id="jobLevel" layoutX="132.0" layoutY="511.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <Label layoutX="490.0" layoutY="144.0" text="Saraly">
                      <font>
                         <Font size="18.0" />
                      </font></Label>
-                  <TextField fx:id="jobLevel" layoutX="130.0" layoutY="482.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="490.0" layoutY="120.0" text="Saraly">
+                  <TextField fx:id="salary" layoutX="490.0" layoutY="172.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <Label layoutX="490.0" layoutY="231.0" text="Skill">
                      <font>
                         <Font size="18.0" />
                      </font></Label>
-                  <TextField fx:id="salary" layoutX="490.0" layoutY="148.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="490.0" layoutY="207.0" text="Skill">
+                  <TextField fx:id="skill" layoutX="490.0" layoutY="256.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <Label layoutX="132.0" layoutY="144.0" text="Job function">
                      <font>
                         <Font size="18.0" />
                      </font></Label>
-                  <TextField fx:id="skill" layoutX="490.0" layoutY="232.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="492.0" layoutY="292.0" text="Job function">
+                  <TextField fx:id="jobFunction" layoutX="132.0" layoutY="172.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <Label layoutX="490.0" layoutY="316.0" text="Detail">
                      <font>
                         <Font size="18.0" />
                      </font></Label>
-                  <TextField fx:id="jobFunction" layoutX="493.0" layoutY="317.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="490.0" layoutY="375.0" text="Detail">
+                  <TextArea fx:id="detail" layoutX="493.0" layoutY="341.0" prefHeight="160.0" prefWidth="337.0" wrapText="true">
                      <font>
-                        <Font size="18.0" />
-                     </font></Label>
-                  <TextField fx:id="detail" alignment="TOP_LEFT" layoutX="493.0" layoutY="400.0" prefHeight="112.0" prefWidth="337.0" />
+                        <Font size="16.0" />
+                     </font>
+                  </TextArea>
+                  <ImageView fitHeight="496.0" fitWidth="496.0" layoutX="203.0" layoutY="-173.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@apply.png" />
+                     </image>
+                  </ImageView>
                </children>
             </Pane>
          </children>

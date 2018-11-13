@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -20,46 +21,63 @@
                         <Image url="@logo.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="okButton" fitHeight="50.0" fitWidth="50.0" layoutX="834.0" layoutY="533.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="okButton" fitHeight="50.0" fitWidth="50.0" layoutX="840.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-checked-filled-50.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="backButton" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="backButton" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-go-back-filled-50.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="60.0" layoutY="239.0" text="Telephone Number">
+                  <Label layoutX="80.0" layoutY="249.0" text="Telephone Number">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="phone" layoutX="60.0" layoutY="267.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="60.0" layoutY="144.0" text="Company Name">
+                  <TextField fx:id="phone" layoutX="80.0" layoutY="277.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <Label layoutX="80.0" layoutY="154.0" text="Company Name">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="name" layoutX="60.0" layoutY="172.0" prefHeight="58.0" prefWidth="745.0" />
-                  <Label layoutX="470.0" layoutY="244.0" text="Address">
+                  <TextField fx:id="name" layoutX="80.0" layoutY="182.0" prefHeight="58.0" prefWidth="745.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <Label layoutX="80.0" layoutY="343.0" text="Address">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="address" alignment="TOP_LEFT" layoutX="470.0" layoutY="272.0" prefHeight="155.0" prefWidth="337.0" />
-                  <Label layoutX="60.0" layoutY="439.0" text="Biography">
+                  <Label layoutX="490.0" layoutY="343.0" text="Biography">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="biography" alignment="TOP_LEFT" layoutX="60.0" layoutY="467.0" prefHeight="101.0" prefWidth="604.0" />
-                  <Label layoutX="60.0" layoutY="339.0" text="Website">
+                  <Label layoutX="490.0" layoutY="249.0" text="Website">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="website" layoutX="60.0" layoutY="367.0" prefHeight="58.0" prefWidth="337.0" />
+                  <TextField fx:id="website" layoutX="490.0" layoutY="277.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <TextArea fx:id="biography" layoutX="490.0" layoutY="371.0" prefHeight="120.0" prefWidth="337.0" wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea fx:id="address" layoutX="80.0" layoutY="371.0" prefHeight="120.0" prefWidth="337.0" wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextArea>
                </children>
             </Pane>
          </children>

@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -16,69 +17,100 @@
          <children>
             <Pane prefHeight="200.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <ImageView fitHeight="75.0" fitWidth="144.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <Label layoutX="374.0" layoutY="555.0" text="E-mail or Password is not correct!" textFill="RED">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="121.0" fitWidth="233.0" layoutX="343.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@logo.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="backButton" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="541.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="backButton" fitHeight="50.0" fitWidth="50.0" layoutX="10.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-go-back-filled-50.png" />
                      </image>
                   </ImageView>
-                  <ImageView fx:id="okButton" fitHeight="50.0" fitWidth="50.0" layoutX="840.0" layoutY="537.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="okButton" fitHeight="50.0" fitWidth="50.0" layoutX="840.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-save-filled-50.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="115.0" layoutY="103.0" text="Company Name">
+                  <Label layoutX="115.0" layoutY="100.0" text="Company Name">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="name" layoutX="115.0" layoutY="125.0" prefHeight="58.0" prefWidth="728.0" />
+                  <TextField fx:id="name" layoutX="115.0" layoutY="125.0" prefHeight="58.0" prefWidth="728.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
                   <Label layoutX="115.0" layoutY="187.0" text="E-mail">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="email" layoutX="115.0" layoutY="210.0" prefHeight="58.0" prefWidth="337.0" />
+                  <TextField fx:id="email" layoutX="115.0" layoutY="210.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
                   <Label layoutX="115.0" layoutY="271.0" text="Password">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <PasswordField fx:id="password" layoutX="115.0" layoutY="295.0" prefHeight="58.0" prefWidth="337.0" />
+                  <PasswordField fx:id="password" layoutX="115.0" layoutY="295.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></PasswordField>
                   <Label layoutX="115.0" layoutY="358.0" text="Confirm Password">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <PasswordField fx:id="confirmPassword" layoutX="115.0" layoutY="380.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="502.0" layoutY="187.0" text="Telephone Number">
+                  <PasswordField fx:id="confirmPassword" layoutX="115.0" layoutY="380.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></PasswordField>
+                  <Label layoutX="502.0" layoutY="184.0" text="Telephone Number">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="phone" layoutX="502.0" layoutY="210.0" prefHeight="58.0" prefWidth="337.0" />
+                  <TextField fx:id="phone" layoutX="502.0" layoutY="210.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
                   <Label layoutX="115.0" layoutY="443.0" text="Website">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="website" layoutX="115.0" layoutY="465.0" prefHeight="58.0" prefWidth="337.0" />
-                  <Label layoutX="503.0" layoutY="271.0" text="Address">
+                  <TextField fx:id="website" layoutX="115.0" layoutY="465.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <Label layoutX="502.0" layoutY="271.0" text="Address">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="address" layoutX="502.0" layoutY="295.0" prefHeight="94.0" prefWidth="337.0" />
-                  <Label layoutX="503.0" layoutY="392.0" text="Biography">
+                  <Label layoutX="503.0" layoutY="398.0" text="Biography">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="biography" layoutX="503.0" layoutY="430.0" prefHeight="94.0" prefWidth="337.0" />
+                  <TextArea fx:id="address" layoutX="502.0" layoutY="295.0" prefHeight="98.0" prefWidth="337.0" wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea fx:id="biography" layoutX="502.0" layoutY="424.0" prefHeight="98.0" prefWidth="337.0" wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextArea>
                </children>
             </Pane>
          </children>
