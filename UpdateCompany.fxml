@@ -17,11 +17,6 @@
          <children>
             <Pane prefHeight="200.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <Label layoutX="374.0" layoutY="555.0" text="E-mail or Password is not correct!" textFill="RED">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </Label>
                   <ImageView fitHeight="121.0" fitWidth="233.0" layoutX="343.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@logo.png" />
@@ -42,7 +37,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="name" layoutX="115.0" layoutY="125.0" prefHeight="58.0" prefWidth="728.0">
+                  <TextField fx:id="nameField" layoutX="115.0" layoutY="125.0" prefHeight="58.0" prefWidth="728.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -51,7 +46,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="email" layoutX="115.0" layoutY="210.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="emailField" layoutX="115.0" layoutY="210.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -60,7 +55,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <PasswordField fx:id="password" layoutX="115.0" layoutY="295.0" prefHeight="58.0" prefWidth="337.0">
+                  <PasswordField fx:id="passwordField" layoutX="115.0" layoutY="295.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></PasswordField>
@@ -69,25 +64,25 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <PasswordField fx:id="confirmPassword" layoutX="115.0" layoutY="380.0" prefHeight="58.0" prefWidth="337.0">
+                  <PasswordField fx:id="confirmPasswordField" layoutX="115.0" layoutY="380.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></PasswordField>
-                  <Label layoutX="502.0" layoutY="184.0" text="Telephone Number">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <TextField fx:id="phone" layoutX="502.0" layoutY="210.0" prefHeight="58.0" prefWidth="337.0">
-                     <font>
-                        <Font size="16.0" />
-                     </font></TextField>
                   <Label layoutX="115.0" layoutY="443.0" text="Website">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="website" layoutX="115.0" layoutY="465.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="websiteField" layoutX="115.0" layoutY="465.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+                  <Label layoutX="502.0" layoutY="184.0" text="Telephone Number">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="phoneField" layoutX="502.0" layoutY="210.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -96,21 +91,26 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
+                  <TextArea fx:id="addressField" layoutX="502.0" layoutY="295.0" prefHeight="98.0" prefWidth="337.0" wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextArea>
                   <Label layoutX="503.0" layoutY="398.0" text="Biography">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextArea fx:id="address" layoutX="502.0" layoutY="295.0" prefHeight="98.0" prefWidth="337.0" wrapText="true">
+                  <TextArea fx:id="biographyField" layoutX="502.0" layoutY="424.0" prefHeight="98.0" prefWidth="337.0" wrapText="true">
                      <font>
                         <Font size="16.0" />
                      </font>
                   </TextArea>
-                  <TextArea fx:id="biography" layoutX="502.0" layoutY="424.0" prefHeight="98.0" prefWidth="337.0" wrapText="true">
+                  <Label fx:id="label" layoutX="374.0" layoutY="555.0" text="E-mail or Password is not correct!" textFill="RED">
                      <font>
-                        <Font size="16.0" />
+                        <Font size="14.0" />
                      </font>
-                  </TextArea>
+                  </Label>
                </children>
             </Pane>
          </children>

@@ -36,7 +36,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="firstName" layoutX="78.0" layoutY="176.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="firstNameField" layoutX="78.0" layoutY="176.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -46,7 +46,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="lastName" layoutX="488.0" layoutY="176.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="lastNameField" layoutX="488.0" layoutY="176.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -56,7 +56,17 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="phone" layoutX="78.0" layoutY="277.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="phoneField" layoutX="78.0" layoutY="277.0" prefHeight="58.0" prefWidth="337.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="488.0" layoutY="249.0" text="Education Level">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="educationLevelField" layoutX="488.0" layoutY="277.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -66,27 +76,17 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
+                  <TextArea fx:id="addressField" layoutX="78.0" layoutY="371.0" prefHeight="120.0" prefWidth="337.0" wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextArea>
                   <Label layoutX="488.0" layoutY="343.0" text="Biography">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label layoutX="488.0" layoutY="249.0" text="Education Level">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <TextField fx:id="educationLevel" layoutX="488.0" layoutY="277.0" prefHeight="58.0" prefWidth="337.0">
-                     <font>
-                        <Font size="16.0" />
-                     </font>
-                  </TextField>
-                  <TextArea fx:id="biography" layoutX="488.0" layoutY="371.0" prefHeight="120.0" prefWidth="337.0" wrapText="true">
-                     <font>
-                        <Font size="16.0" />
-                     </font>
-                  </TextArea>
-                  <TextArea fx:id="address" layoutX="78.0" layoutY="371.0" prefHeight="120.0" prefWidth="337.0" wrapText="true">
+                  <TextArea fx:id="biographyField" layoutX="488.0" layoutY="371.0" prefHeight="120.0" prefWidth="337.0" wrapText="true">
                      <font>
                         <Font size="16.0" />
                      </font>

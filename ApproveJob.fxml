@@ -16,7 +16,7 @@
          <children>
             <Pane prefHeight="606.0" prefWidth="900.0">
                <children>
-                  <ImageView fx:id="okButton" fitHeight="58.0" fitWidth="58.0" layoutX="798.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="okButton" fitHeight="50.0" fitWidth="50.0" layoutX="840.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@icons8-checked-filled-50%20(1).png" />
                      </image>
@@ -31,12 +31,17 @@
                         <Image url="@icons8-go-back-filled-50.png" />
                      </image>
                   </ImageView>
+                  <ImageView fx:id="delButton" fitHeight="50.0" fitWidth="50.0" layoutX="760.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icons8-cancel-filled-50.png" />
+                     </image>
+                  </ImageView>
                   <Label layoutX="94.0" layoutY="88.0" text="Name">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="firstName" layoutX="94.0" layoutY="114.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="firstNameField" layoutX="94.0" layoutY="114.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -45,7 +50,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="lastName" layoutX="94.0" layoutY="197.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="lastNameField" layoutX="94.0" layoutY="197.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -54,7 +59,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="email" layoutX="94.0" layoutY="280.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="emailField" layoutX="94.0" layoutY="280.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -63,7 +68,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="phone" layoutX="94.0" layoutY="365.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="phoneField" layoutX="94.0" layoutY="365.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -72,21 +77,26 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
+                  <TextArea fx:id="biographyField" layoutX="94.0" layoutY="449.0" prefHeight="83.0" prefWidth="337.0" wrapText="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextArea>
                   <Label layoutX="501.0" layoutY="88.0" text="Job">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="jobFunction" layoutX="501.0" layoutY="114.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="jobNameField" layoutX="501.0" layoutY="114.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
-                  <Label layoutX="501.0" layoutY="172.0" text="Education level">
+                  <Label layoutX="501.0" layoutY="172.0" text="Job Function">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="educationLevel" layoutX="501.0" layoutY="197.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="jobFunctionField" layoutX="501.0" layoutY="197.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -95,7 +105,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="jobLevel" layoutX="501.0" layoutY="280.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="jobLevelField" layoutX="501.0" layoutY="280.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -104,7 +114,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="salary" layoutX="501.0" layoutY="365.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="salaryField" layoutX="501.0" layoutY="365.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -113,29 +123,10 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="skill" layoutX="501.0" layoutY="449.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="skillField" layoutX="501.0" layoutY="449.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
-                  <Label layoutX="501.0" layoutY="505.0" text="Employment type">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <TextField fx:id="jobType" layoutX="501.0" layoutY="531.0" prefHeight="58.0" prefWidth="337.0">
-                     <font>
-                        <Font size="16.0" />
-                     </font></TextField>
-                  <ImageView fx:id="delButton" fitHeight="60.0" fitWidth="60.0" layoutX="723.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@icons8-cancel-filled-50.png" />
-                     </image>
-                  </ImageView>
-                  <TextArea fx:id="biography" layoutX="94.0" layoutY="445.0" prefHeight="144.0" prefWidth="337.0" wrapText="true">
-                     <font>
-                        <Font size="16.0" />
-                     </font>
-                  </TextArea>
                </children>
             </Pane>
          </children>
