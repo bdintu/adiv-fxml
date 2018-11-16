@@ -41,7 +41,7 @@
                   <Image url="@icons8-forward-button-filled-50.png" />
                </image>
             </ImageView>
-            <Label fx:id="label" layoutX="362.0" layoutY="573.0" text="E-mail or Password is not correct!" textFill="RED" />
+            <Label fx:id="label" layoutX="362.0" layoutY="573.0" text="" textFill="RED" />
          </children>
       </AnchorPane>
    </children>

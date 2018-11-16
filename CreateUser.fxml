@@ -86,7 +86,7 @@
                         <Image url="@icons8-password-filled-50.png" />
                      </image>
                   </ImageView>
-                  <Label fx:id="label" layoutX="377.0" layoutY="567.0" text="E-mail or Password is not correct!" textFill="RED" />
+                  <Label fx:id="label" layoutX="377.0" layoutY="567.0" text="" textFill="RED" />
                </children>
             </Pane>
          </children>
