@@ -41,7 +41,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="firstNameField" layoutX="94.0" layoutY="114.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="firstNameField" accessibleRole="TEXT" layoutX="94.0" layoutY="114.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -50,7 +50,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="lastNameField" layoutX="94.0" layoutY="197.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="lastNameField" accessibleRole="TEXT" layoutX="94.0" layoutY="197.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -59,7 +59,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="emailField" layoutX="94.0" layoutY="280.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="emailField" accessibleRole="TEXT" layoutX="94.0" layoutY="280.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -68,7 +68,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="phoneField" layoutX="94.0" layoutY="365.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="phoneField" accessibleRole="TEXT" layoutX="94.0" layoutY="365.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -77,7 +77,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextArea fx:id="biographyField" layoutX="94.0" layoutY="449.0" prefHeight="83.0" prefWidth="337.0" wrapText="true">
+                  <TextArea fx:id="biographyField" accessibleRole="TEXT" layoutX="94.0" layoutY="449.0" prefHeight="83.0" prefWidth="337.0" wrapText="true">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -87,7 +87,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="jobNameField" layoutX="501.0" layoutY="114.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="jobNameField" accessibleRole="TEXT" layoutX="501.0" layoutY="114.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -96,7 +96,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="jobFunctionField" layoutX="501.0" layoutY="197.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="jobFunctionField" accessibleRole="TEXT" layoutX="501.0" layoutY="197.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -105,7 +105,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="jobLevelField" layoutX="501.0" layoutY="280.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="jobLevelField" accessibleRole="TEXT" layoutX="501.0" layoutY="280.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -114,7 +114,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="salaryField" layoutX="501.0" layoutY="365.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="salaryField" accessibleRole="TEXT" layoutX="501.0" layoutY="365.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -123,7 +123,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="skillField" layoutX="501.0" layoutY="449.0" prefHeight="58.0" prefWidth="337.0">
+                  <TextField fx:id="skillField" accessibleRole="TEXT" layoutX="501.0" layoutY="449.0" prefHeight="58.0" prefWidth="337.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
