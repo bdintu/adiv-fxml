@@ -38,7 +38,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="nameField" layoutX="192.0" layoutY="165.0" prefHeight="37.0" prefWidth="328.0">
+                  <TextField fx:id="nameField" layoutX="192.0" layoutY="165.0" prefHeight="37.0" prefWidth="521.0">
                      <font>
                         <Font size="16.0" />
                      </font>
@@ -113,19 +113,7 @@
                         <Font size="16.0" />
                      </font>
                   </MenuButton>
-                  <MenuButton fx:id="educationLevelField" layoutX="192.0" layoutY="410.0" mnemonicParsing="false" text="Education level">
-                    <items>
-                        <MenuItem mnemonicParsing="false" text="Full time" />
-                        <MenuItem mnemonicParsing="false" text="Part time" />
-                        <MenuItem mnemonicParsing="false" text="Contract" />
-                        <MenuItem mnemonicParsing="false" text="Internship" />
-                        <MenuItem mnemonicParsing="false" text="Freelance" />
-                    </items>
-                     <font>
-                        <Font size="16.0" />
-                     </font>
-                  </MenuButton>
-                  <MenuButton fx:id="jobFunctionField" layoutX="579.0" layoutY="165.0" mnemonicParsing="false" text="Job Function">
+                  <MenuButton fx:id="jobFunctionField" layoutX="579.0" layoutY="250.0" mnemonicParsing="false" text="Job Function">
                      <items>
                         <MenuItem mnemonicParsing="false" text="Business Development" />
                         <MenuItem mnemonicParsing="false" text="Content Creator" />
@@ -143,7 +131,7 @@
                         <Font size="16.0" />
                      </font>
                   </MenuButton>
-                  <MenuButton fx:id="jobLevelField" layoutX="579.0" layoutY="250.0" mnemonicParsing="false" text="Career level">
+                  <MenuButton fx:id="jobLevelField" layoutX="579.0" layoutY="335.0" mnemonicParsing="false" text="Career level">
                      <items>
                         <MenuItem mnemonicParsing="false" text="Entry" />
                         <MenuItem mnemonicParsing="false" text="Middle" />
@@ -153,7 +141,7 @@
                         <Font size="16.0" />
                      </font>
                   </MenuButton>
-                  <MenuButton fx:id="salaryField" layoutX="579.0" layoutY="330.0" mnemonicParsing="false" text="Salary">
+                  <MenuButton fx:id="salaryField" layoutX="579.0" layoutY="415.0" mnemonicParsing="false" text="Salary">
                      <items>
                         <MenuItem mnemonicParsing="false" text="Under 20000 THB" />
                         <MenuItem mnemonicParsing="false" text="20001-30000 THB" />
@@ -165,7 +153,7 @@
                         <Font size="16.0" />
                      </font>
                   </MenuButton>
-                  <MenuButton fx:id="skillField" layoutX="579.0" layoutY="410.0" mnemonicParsing="false" text="Skill">
+                  <MenuButton fx:id="skillField" layoutX="192.0" layoutY="410.0" mnemonicParsing="false" text="Skill">
                      <items>
                         <MenuItem mnemonicParsing="false" text="Java/JavaScript" />
                         <MenuItem mnemonicParsing="false" text="Python" />
@@ -193,6 +181,7 @@
                         <Font size="16.0" />
                      </font>
                   </TextArea>
+                  <Label fx:id="label" layoutX="377.0" layoutY="567.0" text="" textFill="RED" />
                </children>
             </Pane>
          </children>
